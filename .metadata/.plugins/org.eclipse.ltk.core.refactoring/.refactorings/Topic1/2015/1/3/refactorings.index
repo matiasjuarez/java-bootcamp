@@ -1,0 +1,22 @@
+1421200690241	Delete element
+1421201777494	Delete element
+1421252870049	Encapsulate field 'discountPercentage'
+1421264159862	Rename package 'paymeny'
+1421266852939	Encapsulate field 'email'
+1421266856540	Encapsulate field 'password'
+1421268813912	Encapsulate field 'name'
+1421268818070	Encapsulate field 'creditCardNumber'
+1421275604164	Rename type 'Buy'
+1421275661907	Encapsulate field 'date'
+1421275666963	Encapsulate field 'shoppingCart'
+1421275770098	Delete element
+1421277814775	Rename type 'priceObserver'
+1421277900749	Rename type 'PriceObserver'
+1421284314660	Move compilation units
+1421284373932	Move compilation units
+1421284436414	Move compilation unit
+1421284453652	Move compilation unit
+1421284459507	Move compilation unit
+1421285562820	Rename type 'UserManager'
+1421287305088	Delete element
+1421355194383	Rename type 'offersIndentedPrint'
