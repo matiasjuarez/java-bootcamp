@@ -27,8 +27,8 @@ public class CreditCardMethod implements PayMethod {
 
 		return amountToPay - amountToPay * discountPercentage / 100;
 	}
-	
-	//Here we ask the client for some information to proceed with the purchase
+
+	// Here we ask the client for some information to proceed with the purchase
 	@Override
 	public void requestPaymentInformation() {
 		name = JOptionPane.showInputDialog(null, "Please, insert your name",

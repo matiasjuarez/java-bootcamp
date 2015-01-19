@@ -8,7 +8,8 @@ import views.OffersIndentedPrint;
 
 public class Offer extends Article {
 
-	private float discountPercentage;
+	private float discountPercentage; // this discount is applied on all the
+										// products of the offer
 	private ArrayList<Article> articles;
 	private String name;
 
@@ -92,8 +93,8 @@ public class Offer extends Article {
 		}
 
 	}
-	
-	public String toString(){
+
+	public String toString() {
 		String str = "°";
 		str += getName();
 		str += " .... $";

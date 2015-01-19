@@ -11,7 +11,7 @@ public class CashMethod implements PayMethod {
 	public CashMethod(ShoppingCart shoppingCart) {
 		this.shoppingCart = shoppingCart;
 	}
-	
+
 	// This methods return the amount to pay for all the shoppingCart's articles
 	@Override
 	public double calculateAmountToPay() {

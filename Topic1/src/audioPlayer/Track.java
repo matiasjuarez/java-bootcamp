@@ -2,12 +2,12 @@ package audioPlayer;
 
 import java.io.File;
 
+// This class represents a musical archive
 public class Track {
 	private String name;
 	private File file;
-	
-	
-	public Track(File file){
+
+	public Track(File file) {
 		this.setFile(file);
 		this.name = file.getName();
 	}

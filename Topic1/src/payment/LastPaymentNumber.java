@@ -3,6 +3,7 @@ package payment;
 //This class hold the last number of the last payment done. 
 //So you should call the updateLastNumber method first and then the 
 //getLastMethod number when you are going to create a new Payment
+//It's a singleton
 public class LastPaymentNumber {
 
 	private static LastPaymentNumber lastPaymentNumber = null;
