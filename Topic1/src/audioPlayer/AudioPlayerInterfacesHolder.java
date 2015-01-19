@@ -30,7 +30,7 @@ public class AudioPlayerInterfacesHolder extends JFrame implements
 
 	public AudioPlayerInterfacesHolder(AudioPlayer audioPlayer) {
 		this.setAudioPlayer(audioPlayer);
-
+		
 		setTitle("Player");
 		pack();
 
@@ -42,9 +42,11 @@ public class AudioPlayerInterfacesHolder extends JFrame implements
 		buildMenu();
 
 		// It Builds the interface to play and stop the tracks
-		mainInterface.buildAudioPlayerInterface();
+		mainInterface = new AudioPlayerInterface(audioPlayer);
+		
 
 		// This one Builds the interface to manage the tracks
+		
 		trackListInterface = new TrackListInterface(audioPlayer);
 
 		setVisible(true);

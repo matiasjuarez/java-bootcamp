@@ -19,6 +19,7 @@ public class AudioPlayerInterface extends JPanel implements ActionListener {
 
 	public AudioPlayerInterface(AudioPlayer audioPlayer) {
 		this.audioPlayer = audioPlayer;
+		buildAudioPlayerInterface();
 	}
 
 	public void actionPerformed(ActionEvent e) {
