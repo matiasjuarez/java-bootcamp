@@ -1,21 +1,21 @@
 package crudService;
 
+import java.awt.Image;
+
 /**
  * This interface represents the basic operation a class should implement to
  * provide a CRUD service
  * 
- * @author Matías
+ * @author Matias
  *
  */
 public interface CRUDUserService {
 
 	/**
 	 * Creates a new content and stores it somewhere
-	 * 
-	 * @param content
-	 *            The content the user wants to save
+	 *
 	 */
-	public void createContent(Content content);
+	public void createContent();
 
 	/**
 	 * Update the data of a previously created content
@@ -66,4 +66,29 @@ public interface CRUDUserService {
 	 */
 	public void deleteContent(String id);
 
+	/**
+	 * Gives the user the possibility to upload a new photo.
+	 * 
+	 * @param photo
+	 *            The image a user wants to upload
+	 * @return The image the user has uploaded
+	 */
+	public Image uploadPhoto(Image photo);
+
+	/**
+	 * Adds a new friend to the user's friends list
+	 * 
+	 * @param friendId
+	 *            Is the Id that identifies a user unequivocally
+	 */
+	public void addFriend(String friendId);
+
+	/**
+	 * Adds a new like to a photo whose id is the same as the one passed via
+	 * parameter
+	 * 
+	 * @param photoId
+	 *            The id that identifies a photo unequivocally
+	 */
+	public void likePhoto(String photoId);
 }
