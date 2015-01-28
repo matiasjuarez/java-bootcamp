@@ -1,6 +1,5 @@
 package point4;
 
-import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class Test {
@@ -25,6 +24,12 @@ public class Test {
 		System.out.println(DataShower.showStudentsNote("Maths", "Simpson"));
 		
 		// ***********************
+		
+		//This shows point 6
+		
+		System.out.println(DataShower.showDisapprovedApprovedPercentageFromCourse("Geography", 8));
+		
+		//********
 		
 		
 		
