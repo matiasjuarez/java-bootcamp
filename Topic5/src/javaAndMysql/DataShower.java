@@ -1,4 +1,4 @@
-package point4;
+package javaAndMysql;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
