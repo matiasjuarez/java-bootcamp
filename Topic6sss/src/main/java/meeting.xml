@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc
+http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd 
+http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="meeting" class="com.matias.Topic6.Meeting" scope="prototype">
+		
+	</bean>
+	
+	<bean id="matias" class="com.matias.Topic6.Attendee">
+		<property name="name" value="Matias"></property>
+	</bean>
+
+	<bean id="andrea" class="com.matias.Topic6.Attendee">
+		<property name="name" value="Andrea"></property>
+	</bean>
+
+	<bean id="gonzalo" class="com.matias.Topic6.Attendee">
+		<property name="name" value="Gonzalo"></property>
+	</bean>
+
+	<bean id="andres" class="com.matias.Topic6.Attendee">
+		<property name="name" value="Andres"></property>
+	</bean>
+
+	<bean id="vanesa" class="com.matias.Topic6.Attendee">
+		<property name="name" value="Vanesa"></property>
+	</bean>
+
+	<bean id="gaston" class="com.matias.Topic6.Attendee">
+		<property name="name" value="Gaston"></property>
+	</bean>
+
+	<bean id="room1" class="com.matias.Topic6.Room">
+		<constructor-arg value="20" />
+		<constructor-arg value="1" />
+	</bean>
+
+	<bean id="room2" class="com.matias.Topic6.Room">
+		<constructor-arg value="10" />
+		<constructor-arg value="1" />
+	</bean>
+
+	<bean id="room3" class="com.matias.Topic6.Room">
+		<constructor-arg value="15" />
+		<constructor-arg value="2" />
+	</bean>
+
+	<bean id="room4" class="com.matias.Topic6.Room">
+		<constructor-arg value="15" />
+		<constructor-arg value="3" />
+	</bean>
+</beans>
